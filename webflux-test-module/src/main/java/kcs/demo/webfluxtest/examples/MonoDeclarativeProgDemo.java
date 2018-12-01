@@ -26,7 +26,6 @@ public class MonoDeclarativeProgDemo {
   }
 
   public Mono<String> createStringMono() {
-    Flux.just(1).
     return Flux
         .range(0, 3)
         .flatMap(this::callExtSvcWithInt)
